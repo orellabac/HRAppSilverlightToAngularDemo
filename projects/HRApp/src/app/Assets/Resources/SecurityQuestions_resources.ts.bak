@@ -1,0 +1,12 @@
+import { GlobalResourceManager} from "smcomponents";
+GlobalResourceManager.registerResourceEntry("HRApp","BestChildhoodFriendQuestion","What is the name of your favorite childhood friend?")
+GlobalResourceManager.registerResourceEntry("HRApp","ChildhoodNicknameQuestion","What was your childhood nickname?")
+GlobalResourceManager.registerResourceEntry("HRApp","FirstCarColorQuestion","What was the color of your first car?")
+GlobalResourceManager.registerResourceEntry("HRApp","FirstCarMakeAndModelQuestion","What was the make and model of your first car?")
+GlobalResourceManager.registerResourceEntry("HRApp","FirstJobCityQuestion","In what city or town was your first job?")
+GlobalResourceManager.registerResourceEntry("HRApp","LastVacationLocationQuestion","Where did you vacation last year?")
+GlobalResourceManager.registerResourceEntry("HRApp","MaternalGrandmothersMaidenNameQuestion","What is your maternal grandmother's maiden name?")
+GlobalResourceManager.registerResourceEntry("HRApp","MothersMaidenNameQuestion","What is your mother's maiden name?")
+GlobalResourceManager.registerResourceEntry("HRApp","PetNameQuestion","What is your pet's name?")
+GlobalResourceManager.registerResourceEntry("HRApp","SixthGradeSchoolNameQuestion","What school did you attend for sixth grade?")
+GlobalResourceManager.registerResourceEntry("HRApp","YearFatherWasBornQuestion","In what year was your father born?")

@@ -1,0 +1,48 @@
+<div style='display: flex; flex-direction: column'>
+   <div class='_grid-spec1'>
+      <div class='_grid-spec1-cell-0-0'>
+         <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+            <div>
+               <custom-data-form>
+               </custom-data-form>
+
+            </div>
+
+         </div>
+
+      </div>
+      <div class='_grid-spec1-cell-1-0'>
+         <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+            <div style='display: flex; flex-direction: column'>
+               <span class='CommentStyle'>
+                  {{model.getApplicationResource('ResourceWrapper')?.ApplicationStrings?.AlreadyRegisteredLabel}}
+               </span>
+               <a >
+                  {{model.getApplicationResource('ResourceWrapper')?.ApplicationStrings?.BackToLoginButton}}
+               </a>
+
+            </div>
+
+         </div>
+
+      </div>
+      <div class='_grid-spec1-cell-1-0'>
+         <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+            <button style='margin: 0px 0px 1px 0px' class='btn btn-primary btn-sm' name='registerCancel' (click)='model.CancelButton_Click(null, null)'>
+            </button>
+
+         </div>
+
+      </div>
+      <div class='_grid-spec1-cell-1-0'>
+         <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+            <button class='btn btn-primary btn-sm' name='registerButton' (click)='model.RegisterButton_Click(null, null)'>
+            </button>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>

@@ -1,0 +1,24 @@
+
+/**************  LayoutRoot  ******************/
+
+.LayoutRoot  {
+   display: grid;
+   grid-template-columns: auto;
+   grid-template-rows: minmax(auto, 100%) auto;
+   margin: 2px;
+}
+.LayoutRoot-cell-0-0  {
+   grid-column: 1;
+   grid-row: 1;
+   position: relative;
+}
+.LayoutRoot-cell-1-0  {
+   grid-column: 1;
+   grid-row: 2;
+   position: relative;
+}
+.LayoutRoot-cell-1-0  {
+   grid-column: 1;
+   grid-row: 2;
+   position: relative;
+}

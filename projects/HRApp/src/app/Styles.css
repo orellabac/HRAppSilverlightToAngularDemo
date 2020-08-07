@@ -1,0 +1,209 @@
+.LayoutRootGridStyle  {
+   background-color: #FFFFFF;
+}
+.ContentBorderStyle  {
+   margin-top: 62px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+.ContentFrameStyle  {
+   padding: 5px 58px ;
+}
+.NavigationGridStyle  {
+   background-color: #484848;
+   height: 42px;
+}
+.BrandingBorderStyle  {
+   height: 42px;
+   margin-top: 0px;
+   margin-right: 25px;
+   margin-bottom: 0px;
+   margin-left: 25px;
+   position: absolute;
+   float: left;
+}
+.BrandingStackPanelStyle  {
+   float: left;
+}
+.LogoIcon  {
+   height: 24px;
+   width: 24px;
+   margin-top: 1px;
+   margin-right: 10px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+}
+.ApplicationNameStyle  {
+   color: #FFFFFF;
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 2px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+}
+.LinksBorderStyle  {
+   height: 42px;
+   margin-top: 0px;
+   margin-right: 15px;
+   margin-bottom: 0px;
+   margin-left: 15px;
+   /* position: absolute;
+   float: right; */
+}
+.LinksStackPanelStyle  {
+   float: left;
+}
+.LinkStyle  {
+   background-color: #0097FC;
+   color: #FFFFFF;
+   font-size: 12px;
+   padding: 4px 8px 4px 8px;
+}
+.DividerStyle  {
+   width: 1px;
+   margin-top: 4px;
+   margin-right: 2px;
+   margin-bottom: 4px;
+   margin-left: 2px;
+   position: absolute;
+}
+.PageScrollViewerStyle  {
+   margin-top: -5px;
+   margin-right: -58px;
+   margin-bottom: -5px;
+   margin-left: -58px;
+   position: absolute;
+   padding: -10px 33px -10px 35px;
+}
+.HeaderTextStyle  {
+   color: #313131;
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-right: 0px;
+   margin-bottom: 4px;
+   margin-left: 0px;
+   position: absolute;
+   float: left;
+}
+.ContentTextStyle  {
+   color: #313131;
+   font-size: 12px;
+   margin-top: 2px;
+   margin-right: 0px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   position: absolute;
+   float: left;
+}
+.LoginContainerStyle  {
+   background-color: #949290;
+   margin-top: 43px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+   height: 21px;
+   width: 100%;
+}
+.LoginPanelStyle  {
+   float: right;
+}
+.SpacerStyle  {
+   font-size: 11px;
+   color: #FFFFFF;
+   float: right;
+   margin: 6px 2px;
+}
+.WelcomeTextStyle  {
+   font-size: 11px;
+   color: #FFFFFF;
+   margin-top: 2px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+}
+.LoginRegisterLinkStyle  {
+   margin-top: 2px;
+   margin-right: 30px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   position: absolute;
+   font-size: 11px;
+   color: #FFFFFF;
+}
+.LoginControlsStackPanelStyle  {
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 8px;
+   margin-left: 0px;
+   position: absolute;
+}
+.LoginControlStyle  {
+   margin-top: 4px;
+   margin-right: 0px;
+   margin-bottom: 2px;
+   margin-left: 0px;
+   position: absolute;
+   width: 100%;
+}
+.LoginTextStyle  {
+   width: 60px;
+   margin-top: 0px;
+   margin-right: 6px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+   float: left;
+}
+.LoginTextBoxStyle  {
+   width: 316px;
+   float: left;
+}
+.LoginPSBoxStyle  {
+   width: 316px;
+}
+.CommentStyle  {
+   font-size: 9px;
+   font-weight: bold;
+   color: #000000;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 3px;
+   position: absolute;
+}
+.RegisterLoginLinkPanelStyle  {
+   float: left;
+   margin-top: 3px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   position: absolute;
+}
+.RegisterLoginButtonStyle  {
+   width: 75px;
+   height: 23px;
+   margin-top: 0px;
+   margin-right: 79px;
+   margin-bottom: 1px;
+   margin-left: 0px;
+   position: absolute;
+   float: right;
+}
+.DataFormStyle  {
+   width: 380px;
+   margin: 0px -4px;
+}
+.LoginDataFormStyle  {
+   width: 380px;
+   margin: 0px 0px;
+}

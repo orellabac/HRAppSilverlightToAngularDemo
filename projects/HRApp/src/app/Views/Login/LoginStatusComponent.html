@@ -1,0 +1,28 @@
+<div style='height: 100%' class='original-grid-cell'>
+   <div name='LayoutRoot' class='LayoutRoot'>
+      <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+         <div name='loginControls' style='display: flex; flex-direction: row'>
+            <button class='btn btn-primary btn-sm' name='loginButton' (click)='model.LoginButton_Click(null, null)'>
+            </button>
+
+         </div>
+
+      </div>
+      <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+         <div name='logoutControls' style='display: flex; flex-direction: row'>
+            <span name='welcomeText'>
+               {{model.welcomeText.Text }}
+            </span>
+            <label class='SpacerStyle'>
+                 |  
+            </label>
+            <button class='btn btn-primary btn-sm' name='logoutButton' (click)='model.LogoutButton_Click(null, null)'>
+            </button>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Inventory>
+  <Category Name="ExternalTypeUsage">
+    <Category Name="NoMapping">
+      <Category Name="System.ServiceModel.DomainServices.Client.ApplicationServices.AuthenticationService">
+        <Category Name="Methods">
+          <Category Name="LoadUser">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="Logout">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="Login">
+            <Counters Name="Call" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="LoadUser">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Logout">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Login">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.ApplicationServices.WebContextBase">
+        <Category Name="Property">
+          <Category Name="Authentication">
+            <Counters Name="Access" Value="7" />
+          </Category>
+          <Category Name="Current">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.Activity">
+        <Category Name="Property">
+          <Category Name="IsActive">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ActiveContent">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="IsActiveProperty">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.Control">
+        <Category Name="Property">
+          <Category Name="HorizontalContentAlignment">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="VerticalContentAlignment">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="IsEnabledProperty">
+            <Counters Name="Access" Value="8" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.HorizontalAlignment">
+        <Category Name="Property">
+          <Category Name="Stretch">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.VerticalAlignment">
+        <Category Name="Property">
+          <Category Name="Stretch">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.ApplicationUnhandledExceptionEventArgs">
+        <Category Name="Property">
+          <Category Name="Handled">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ExceptionObject">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.DataForm">
+        <Category Name="Property">
+          <Category Name="CurrentItem">
+            <Counters Name="Access" Value="4" />
+          </Category>
+          <Category Name="BeginEdit">
+            <Counters Name="Access" Value="3" />
+          </Category>
+          <Category Name="CommitEdit">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="CancelEdit">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ValidationSummary">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="ValidateItem">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="Methods">
+          <Category Name="BeginEdit">
+            <Counters Name="Call" Value="3" />
+          </Category>
+          <Category Name="CommitEdit">
+            <Counters Name="Call" Value="2" />
+          </Category>
+          <Category Name="CancelEdit">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="OnAutoGeneratingField">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="ValidateItem">
+            <Counters Name="Call" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="XamlUsageInSubClass">
+          <Category Name="Properties">
+            <Category Name="NotMapped">
+              <Category Name="Literal">
+                <Counters Name="Name" Value="2" />
+                <Counters Name="AutoEdit" Value="2" />
+                <Counters Name="CommandButtonsVisibility" Value="2" />
+                <Counters Name="HeaderVisibility" Value="1" />
+                <Counters Name="AutoGeneratingField" Value="1" />
+                <Counters Name="Width" Value="1" />
+                <Counters Name="Style" Value="2" />
+                <Counters Name="AutoGenerateFields" Value="1" />
+              </Category>
+              <Category Name="Attached">
+                <Counters Name="Grid.Row" Value="2" />
+              </Category>
+              <Category Name="StaticResourceBinding">
+                <Counters Name="Header" Value="1" />
+              </Category>
+            </Category>
+          </Category>
+          <Counters Name="SubClassUsedAsElement" Value="2" />
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.WebDomainClient`1">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="6" />
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.DomainContext">
+        <Category Name="Methods">
+          <Category Name="ValidateMethod">
+            <Counters Name="Call" Value="6" />
+          </Category>
+          <Category Name="SubmitChanges">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="SubmitChanges">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntityContainer">
+        <Category Name="Methods">
+          <Category Name="CreateEntitySet">
+            <Counters Name="Call" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntitySetOperations">
+        <Category Name="Property">
+          <Category Name="Edit">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Add">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.Entity">
+        <Category Name="Methods">
+          <Category Name="RaiseDataMemberChanging">
+            <Counters Name="Call" Value="15" />
+          </Category>
+          <Category Name="ValidateProperty">
+            <Counters Name="Call" Value="18" />
+          </Category>
+          <Category Name="RaiseDataMemberChanged">
+            <Counters Name="Call" Value="15" />
+          </Category>
+          <Category Name="RaisePropertyChanged">
+            <Counters Name="Call" Value="4" />
+          </Category>
+          <Category Name="IsActionInvoked">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="CanInvokeAction">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="InvokeAction">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="UpdateActionState">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="OnPropertyChanged">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="EntityState">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntityCollection`1">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+        <Category Name="Methods">
+          <Category Name="Remove">
+            <Counters Name="Call" Value="1" />
+          </Category>
+          <Category Name="Add">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="Remove">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Add">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntityRef`1">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+        <Category Name="Property">
+          <Category Name="Entity">
+            <Counters Name="Access" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ComponentModel.DataAnnotations.ValidationResult">
+        <Category Name="Property">
+          <Category Name="Success">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="2" />
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.DomainDataSource">
+        <Category Name="Methods">
+          <Category Name="SubmitChanges">
+            <Counters Name="Call" Value="4" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="SubmitChanges">
+            <Counters Name="Access" Value="4" />
+          </Category>
+          <Category Name="DomainContext">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.DataGrid">
+        <Category Name="Property">
+          <Category Name="SelectedItem">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntitySet`1">
+        <Category Name="Methods">
+          <Category Name="Add">
+            <Counters Name="Call" Value="2" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="Add">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.ApplicationServices.LoginParameters">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="2" />
+        </Category>
+      </Category>
+      <Category Name="System.ComponentModel.DataAnnotations.ValidationContext">
+        <Category Name="Property">
+          <Category Name="ObjectInstance">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ComponentModel.PropertyChangedEventArgs">
+        <Category Name="Property">
+          <Category Name="PropertyName">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.DataFormAutoGeneratingFieldEventArgs">
+        <Category Name="Property">
+          <Category Name="PropertyName">
+            <Counters Name="Access" Value="7" />
+          </Category>
+          <Category Name="Field">
+            <Counters Name="Access" Value="8" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.DataField">
+        <Category Name="Property">
+          <Category Name="Content">
+            <Counters Name="Access" Value="11" />
+          </Category>
+          <Category Name="Validate">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Methods">
+          <Category Name="Validate">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.PasswordBox">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+        <Category Name="Property">
+          <Category Name="PasswordProperty">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Password">
+            <Counters Name="Access" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Data.Binding">
+        <Category Name="Property">
+          <Category Name="Source">
+            <Counters Name="Access" Value="3" />
+          </Category>
+          <Category Name="Path">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="Converter">
+            <Counters Name="Access" Value="3" />
+          </Category>
+          <Category Name="BindsDirectlyToSource">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ConverterParameter">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ConverterCulture">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Mode">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="NotifyOnValidationError">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="UpdateSourceTrigger">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ValidatesOnExceptions">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="ElementName">
+            <Counters Name="Access" Value="3" />
+          </Category>
+          <Category Name="RelativeSource">
+            <Counters Name="Access" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.PropertyPath">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Data.BindingExpression">
+        <Category Name="Property">
+          <Category Name="ParentBinding">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.FrameworkElement">
+        <Category Name="Methods">
+          <Category Name="GetBindingExpression">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="GetBindingExpression">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.TextBox">
+        <Category Name="Property">
+          <Category Name="TextProperty">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Action`1">
+        <Category Name="Methods">
+          <Category Name="Invoke">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.NotSupportedException">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+      </Category>
+      <Category Name="System.Uri">
+        <Category Name="Property">
+          <Category Name="Host">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Interop.SilverlightHost">
+        <Category Name="Property">
+          <Category Name="Source">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.Panel">
+        <Category Name="Property">
+          <Category Name="Children">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.HyperlinkButton">
+        <Category Name="Property">
+          <Category Name="NavigateUri">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Navigation.NavigationEventArgs">
+        <Category Name="Property">
+          <Category Name="Uri">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.VisualStateManager">
+        <Category Name="Methods">
+          <Category Name="GoToState">
+            <Counters Name="Call" Value="7" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="GoToState">
+            <Counters Name="Access" Value="7" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Navigation.NavigationFailedEventArgs">
+        <Category Name="Property">
+          <Category Name="Handled">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="Exception">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.TextBlock">
+        <Category Name="Property">
+          <Category Name="TextProperty">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.OperationBase">
+        <Category Name="Property">
+          <Category Name="HasError">
+            <Counters Name="Access" Value="4" />
+          </Category>
+          <Category Name="Error">
+            <Counters Name="Access" Value="4" />
+          </Category>
+          <Category Name="MarkErrorAsHandled">
+            <Counters Name="Access" Value="4" />
+          </Category>
+          <Category Name="IsCanceled">
+            <Counters Name="Access" Value="1" />
+          </Category>
+          <Category Name="CanCancel">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="Cancel">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="IsComplete">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Methods">
+          <Category Name="MarkErrorAsHandled">
+            <Counters Name="Call" Value="4" />
+          </Category>
+          <Category Name="Cancel">
+            <Counters Name="Call" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Collections.ObjectModel.Collection`1">
+        <Category Name="Methods">
+          <Category Name="Clear">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="Clear">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.ValidationSummary">
+        <Category Name="Property">
+          <Category Name="Errors">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.ApplicationServices.LoginOperation">
+        <Category Name="Property">
+          <Category Name="LoginSuccess">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.ValidationSummaryItem">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+      </Category>
+      <Category Name="System.ComponentModel.CancelEventArgs">
+        <Category Name="Property">
+          <Category Name="Cancel">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.StackPanel">
+        <Category Name="XamlUsageInSubClass">
+          <Category Name="Properties">
+            <Category Name="NotMapped">
+              <Category Name="Literal">
+                <Counters Name="Name" Value="2" />
+              </Category>
+              <Category Name="Attached">
+                <Counters Name="Grid.Row" Value="2" />
+              </Category>
+            </Category>
+          </Category>
+          <Counters Name="SubClassUsedAsElement" Value="2" />
+        </Category>
+      </Category>
+      <Category Name="System.ServiceModel.DomainServices.Client.EntityState">
+        <Category Name="Property">
+          <Category Name="Unmodified">
+            <Counters Name="Access" Value="2" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.Primitives.Selector">
+        <Category Name="Property">
+          <Category Name="SelectedItemProperty">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Type">
+        <Category Name="Methods">
+          <Category Name="Equals">
+            <Counters Name="Call" Value="1" />
+          </Category>
+        </Category>
+        <Category Name="Property">
+          <Category Name="Equals">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Reflection.PropertyInfo">
+        <Category Name="Property">
+          <Category Name="PropertyType">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.ComboBox">
+        <Category Name="Constructor">
+          <Counters Name="Call" Value="1" />
+        </Category>
+      </Category>
+    </Category>
+    <Category Name="StubMapping">
+      <Category Name="System.Exception">
+        <Category Name="Property">
+          <Category Name="StackTrace">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="InnerException">
+            <Counters Name="Access" Value="2" />
+          </Category>
+          <Category Name="Message">
+            <Counters Name="Access" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.Control">
+        <Category Name="Property">
+          <Category Name="IsEnabled">
+            <Counters Name="Access" Value="3" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.UIElement">
+        <Category Name="Property">
+          <Category Name="Visibility">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+      <Category Name="System.Windows.Controls.ItemsControl">
+        <Category Name="Property">
+          <Category Name="ItemsSource">
+            <Counters Name="Access" Value="1" />
+          </Category>
+        </Category>
+      </Category>
+    </Category>
+  </Category>
+</Inventory>

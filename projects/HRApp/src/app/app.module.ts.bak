@@ -1,0 +1,71 @@
+
+
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { ConversionSupportModule } from 'smcomponents';
+import { GridModule } from '@progress/kendo-angular-grid';
+import { LayoutModule } from '@progress/kendo-angular-layout';
+import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DialogsModule } from '@progress/kendo-angular-dialog';
+import { HttpClientModule } from '@angular/common/http';
+
+
+import { AboutComponent } from './Views/About.xaml';
+import { App } from './App.xaml';
+import { CustomDataFormComponent } from './Controls/CustomDataForm';
+import { EmployeeListComponent } from './Views/EmployeeList.xaml';
+import { EmployeeRegistrationWindowComponent } from './EmployeeRegistrationWindow.xaml';
+import { HomeComponent } from './Views/Home.xaml';
+import { LoginFormComponent } from './Views/Login/LoginForm.xaml';
+import { LoginRegistrationWindowComponent } from './Views/Login/LoginRegistrationWindow.xaml';
+import { LoginStatusComponent } from './Views/Login/LoginStatus.xaml';
+import { MainPageComponent } from './MainPage.xaml';
+import { RegistrationFormComponent } from './Views/Login/RegistrationForm.xaml';
+import { RouterModule, Routes, RouterLink } from '@angular/router';
+
+const appRoutes : Routes= [
+  { path: 'Home', component : HomeComponent},
+  { path: 'EmployeeList', component : EmployeeListComponent},
+  { path: 'About', component : AboutComponent},
+];
+
+
+@NgModule({
+  declarations: [
+      AboutComponent,
+    App,
+    CustomDataFormComponent,
+    EmployeeListComponent,
+    EmployeeRegistrationWindowComponent,
+    HomeComponent,
+    LoginFormComponent,
+    LoginRegistrationWindowComponent,
+    LoginStatusComponent,
+    MainPageComponent,
+    RegistrationFormComponent,
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    GridModule,
+    LayoutModule,
+    DropDownsModule,
+    BrowserAnimationsModule,
+    DialogsModule,
+    ConversionSupportModule,
+    RouterModule.forRoot(
+      appRoutes,
+    ) 
+
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

@@ -1,0 +1,107 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+
+    "smcomponents" : {
+      "projectType": "library",
+      "root": "projects/smcomponents",
+      "sourceRoot": "projects/smcomponents/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/smcomponents/tsconfig.lib.json",
+            "project": "projects/smcomponents/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/smcomponents/tsconfig.lib.prod.json"
+            }
+          }
+        }
+      }
+    },    "HRApp" : {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/HRApp",
+      "sourceRoot": "projects/HRApp/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/HRApp",
+            "index": "projects/HRApp/src/index.html",
+            "main": "projects/HRApp/src/main.ts",
+            "polyfills": "projects/HRApp/src/polyfills.ts",
+            "tsConfig": "projects/HRApp/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "projects/HRApp/src/favicon.ico",
+              "projects/HRApp/src/assets"
+            ],
+            "styles": [
+              "projects/HRApp/src/styles.css",
+              "projects/HRApp/src/app/Styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@progress/kendo-theme-bootstrap/dist/all.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/HRApp/src/environments/environment.ts",
+                  "with": "projects/HRApp/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "HRApp:build",
+            "proxyConfig": "proxy.conf.json"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "HRApp:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "HRApp:build"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "HRApp"
+}

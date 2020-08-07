@@ -1,0 +1,94 @@
+<div>
+   <div name='LayoutRoot' class='LayoutRoot'>
+      <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+         <div>
+            <div style='margin: 12px 0px 12px 0px; display: flex; flex-direction: column'>
+               <label class='HeaderTextStyle'>
+                  Employee List
+               </label>
+               <div style='align-self: flex-end'>
+                  <div style='margin: -16px 0px 0px 0px; display: flex; flex-direction: row'>
+                     <label>
+                        Min Vacation Hours Filter
+                     </label>
+                     <input style='margin: 4px' type='text' [(ngModel)]='model.vacationHoursText.Text' class='form-control'>
+                  </div>
+
+               </div>
+               <span>
+               </span>
+               <div style="overflow-x:scroll">
+               <kendo-grid [height]="250" name='dataGrid1' activeRowGridSelection="" [(activeRowToBind)]='model.dataGrid1.SelectedItem' [selectable]='true' [resizable]='true' [scrollable]='true' [data-pager-helper-binding]='employeeDataSource_Pager'>
+                  <kendo-grid-column
+                      *ngFor="let column of model.employeeDataSource?.columns"
+                      field="{{column.field}}"
+                      format="{{column.format}}">
+                  </kendo-grid-column>
+               </kendo-grid>
+            </div>
+               <data-pager-helper [pageSize]=5 [source]='model.employeeDataSource?.Data' #employeeDataSource_Pager="">
+               </data-pager-helper>
+               <div style='align-self: flex-end'>
+                  <div style='margin: 12px 0px 0px 0px; display: flex; flex-direction: row'>
+                     <button style='margin: 0px 0px 0px 4px' class='btn btn-primary btn-sm' name='addNewEmployee' (click)='model.addNewEmployee_Click(null, null)'>
+                        Add Employee
+                     </button>
+
+                  </div>
+
+               </div>
+               <fieldset name='dataForm1' *ngIf='model.dataGrid1.SelectedItem'>
+                  <legend>
+                     Employee Information
+                  </legend>
+                  <div style='display: flex; flex-direction: column'>
+                     <div class='form-group'>
+                        Employee ID<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.EmployeeID' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Login ID<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.LoginID' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Hire Date<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.HireDate' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Marital Status<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.MaritalStatus' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Gender<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.Gender' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Vacation Hours<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.VacationHours' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Sick Leave Hours<input type='text' [(ngModel)]='model.dataGrid1.SelectedItem.SickLeaveHours' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                     </div>
+                     <div class='form-group'>
+                        Active<input type='checkbox' [(ngModel)]='model.dataGrid1.SelectedItem.CurrentFlag'>
+                     </div>
+
+                  </div>
+
+               </fieldset>
+               <div style='align-self: flex-end'>
+                  <div style='margin: 12px 0px 0px 0px; display: flex; flex-direction: row'>
+                     <button style='margin: 0px 0px 0px 4px' class='btn btn-primary btn-sm' name='submitButton' (click)='model.submitButton_Click(null, null)'>
+                        Submit
+                     </button>
+                     <button style='margin: 0px 0px 0px 4px' class='btn btn-primary btn-sm' name='approveSabbatical' (click)='model.approveSabbatical_Click(null, null)'>
+                        Approve Sabbatical
+                     </button>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>

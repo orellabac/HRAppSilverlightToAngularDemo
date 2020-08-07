@@ -1,0 +1,57 @@
+<div>
+   <div name='LayoutRoot' class='LayoutRoot'>
+      <div class='LayoutRoot-cell-0-0'>
+         <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+            <fieldset  name='addEmployeeDataForm'>
+               <div style='display: flex; flex-direction: column'>
+                  <div class='form-group'>
+                     Login ID<input type='text' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.LoginID' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                     National ID<input type='text' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.NationalIDNumber' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                     Title<input type='text' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.Title' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                     Marital Status<input type='text' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.MaritalStatus' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                     Gender<input type='text' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.Gender' [ngModelOptions]="{ updateOn: 'blur' }" class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                     Salaried<input type='checkbox' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.SalariedFlag'>
+                  </div>
+                  <div class='form-group'>
+                     Active<input type='checkbox' [(ngModel)]='model.addEmployeeDataForm.CurrentItem.CurrentFlag'>
+                  </div>
+
+               </div>
+
+            </fieldset>
+
+         </div>
+
+      </div>
+      <div class='LayoutRoot-cell-1-0'>
+         <div style='height: 100%;position: absolute;top: 0px;right: 0px;'>
+            <button style='margin: 12px 0px 0px 0px' class='btn btn-primary btn-sm' name='CancelButton' (click)='model.CancelButton_Click(null, null)'>
+               Cancel
+            </button>
+
+         </div>
+
+      </div>
+      <div class='LayoutRoot-cell-1-0'>
+         <div style='height: 100%;position: absolute;top: 0px;right: 0px;'>
+            <button style='margin: 12px 79px 0px 0px' class='btn btn-primary btn-sm' name='OKButton' (click)='model.OKButton_Click(null, null)'>
+               OK
+            </button>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>

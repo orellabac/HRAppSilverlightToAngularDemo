@@ -1,0 +1,70 @@
+<div style='height: 100%' class='original-grid-cell'>
+   <div name='LayoutRoot' class='LayoutRoot'>
+      <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+         <div class='ContentBorderStyle' name='ContentBorder' [hidden]='!model.ContentBorder?.Visibility'>
+            <div name='ContentFrame' class='ContentFrameStyle'>
+               <router-outlet>
+               </router-outlet>
+
+            </div>
+
+         </div>
+
+      </div>
+      <div style='position:absolute; top:0px;width: 100%' class='original-grid-cell'>
+         <div class='_grid-spec1'>
+            <div >
+               <div name='NavigationGrid' style="width:100%" class='NavigationGridStyle'>
+                  <div style='height: 100%;width: 100%;' class='original-grid-cell'>
+                     <div class='BrandingBorderStyle' name='BrandingBorder' [hidden]='!model.BrandingBorder?.Visibility'>
+                        <div name='BrandingStackPanel' style='display: flex; flex-direction: row'>
+                           <div>
+                           </div>
+                           <span name='ApplicationNameTextBlock' class='ApplicationNameStyle'>
+                              {{model.getApplicationResource('ResourceWrapper')?.ApplicationStrings?.ApplicationName}}
+                           </span>
+
+                        </div>
+
+                     </div>
+
+                  </div>
+                  <div style='position:absolute; top:0px; right:0px' class='original-grid-cell'>
+                     <div class='LinksBorderStyle' name='LinksBorder' [hidden]='!model.LinksBorder?.Visibility'>
+                        <div name='LinksStackPanel' style='display: flex; flex-direction: row'>
+                           <a class='LinkStyle' routerLink='/Home'>
+                              {{model.getApplicationResource('ResourceWrapper')?.ApplicationStrings?.HomePageTitle}}
+                           </a>
+                           <div class='DividerStyle' name='Divider1'>
+                           </div>
+                           <a class='LinkStyle' routerLink='/EmployeeList'>
+                              Employee List
+                           </a>
+                           <div class='DividerStyle' name='Divider2'>
+                           </div>
+                           <a class='LinkStyle' routerLink='/About'>
+                              {{model.getApplicationResource('ResourceWrapper')?.ApplicationStrings?.AboutPageTitle}}
+                           </a>
+
+                        </div>
+
+                     </div>
+
+                  </div>
+
+               </div>
+
+            </div>
+            <div style='height: 100%;width: 100%; position: absolute; top: 0px; pointer-events: none;' class='original-grid-cell'>
+               <div class='LoginContainerStyle' name='loginContainer' [hidden]='!model.loginContainer?.Visibility'>
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>

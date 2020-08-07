@@ -1,0 +1,10 @@
+import { GlobalResourceManager} from "smcomponents";
+GlobalResourceManager.registerResourceEntry("HRApp","EmailLabel","Email")
+GlobalResourceManager.registerResourceEntry("HRApp","FriendlyNameDescription","How do you want your name to be displayed in the application")
+GlobalResourceManager.registerResourceEntry("HRApp","FriendlyNameLabel","Friendly name")
+GlobalResourceManager.registerResourceEntry("HRApp","PasswordConfirmationLabel","Confirm password")
+GlobalResourceManager.registerResourceEntry("HRApp","PasswordDescription","The password must be 7 characters long and must contain at least one special character e.g. @ or #")
+GlobalResourceManager.registerResourceEntry("HRApp","PasswordLabel","Password")
+GlobalResourceManager.registerResourceEntry("HRApp","SecurityAnswerLabel","Security answer")
+GlobalResourceManager.registerResourceEntry("HRApp","SecurityQuestionLabel","Security question")
+GlobalResourceManager.registerResourceEntry("HRApp","UserNameLabel","UserName")
