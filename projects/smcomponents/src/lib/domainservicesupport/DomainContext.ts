@@ -46,7 +46,7 @@ export class DomainContext {
 
     public PropertyChanged : (x:any,y:any) => void;
 
-    constructor(private client? : any) {
+    constructor(public client? : any) {
         this.servicesHost = window.location.origin.toString() + '/';
         if (client && client.uri && client.uri.url) {
             if (client.uri.url.startsWith('http')) {
