@@ -69,7 +69,7 @@ export class EmployeeList extends Page {
       //this.employeeDataSource.DomainContext = new OrganizationContext(new Uri("http://localhost:29116/ClientBin/HRApp-Web-OrganizationService.svc"));
       this.employeeDataSource.DomainContext.servicesHost =  environment.serviceHost;
       this.employeeDataSource.DomainContext.endpoint = environment.serviceHost +  "ClientBin/HRApp-Web-OrganizationService.svc/json/";
-      this.employeeDataSource.DomainContext.client.endpoint = environment.serviceHost + "ClientBin/HRApp-Web-OrganizationService.svc/json/"
+      (<any>this.employeeDataSource.DomainContext).client.endpoint = environment.serviceHost + "ClientBin/HRApp-Web-OrganizationService.svc/json/"
       this.employeeDataSource.addFilterDescriptor(new FilterDescriptor({
          property : "VacationHours",
          operator : "IsGreaterThanOrEqualTo",

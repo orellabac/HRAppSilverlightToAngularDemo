@@ -42,7 +42,7 @@ export class DomainContext {
 
     public servicesHost  = "6e3296f67971.ngrok.io";
     public serviceName  = "/ClientBin/MyService.svc";
-    private endpoint : string = "";
+    public endpoint : string = "";
 
     public PropertyChanged : (x:any,y:any) => void;
 
