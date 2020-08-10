@@ -40,7 +40,7 @@ export class DomainContext {
 
     public IsLoading : boolean = false;
 
-    public servicesHost  = "localhost";
+    public servicesHost  = "6e3296f67971.ngrok.io";
     public serviceName  = "/ClientBin/MyService.svc";
     private endpoint : string = "";
 

@@ -1,6 +1,6 @@
 {
     "/": {
-        "target": "http://localhost:29116",
+        "target": "http://597e0192974a.ngrok.io/",
         "secure": false
     }
 }

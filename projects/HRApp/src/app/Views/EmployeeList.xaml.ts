@@ -4,6 +4,7 @@ import { EmployeeRegistrationWindow} from "../EmployeeRegistrationWindow.xaml";
 import { Page, observableFromSupportProperty, FilterDescriptor, SortDescriptor, syncComponentAndModel, Grid, TextBox, DomainDataSource, DataGrid, ButtonModel, DataForm, Uri, Application} from "smcomponents";
 import { Component, Input, Optional, ElementRef} from "@angular/core";
 import { HttpClient} from "@angular/common/http";
+import { environment } from '../../environments/environment';
 @Component({
    selector : "employee-list",
    templateUrl : "EmployeeListComponent.html",
@@ -66,7 +67,9 @@ export class EmployeeList extends Page {
       this.employeeDataSource.AutoLoad = true;
       this.employeeDataSource.DomainContext = new OrganizationContext();
       //this.employeeDataSource.DomainContext = new OrganizationContext(new Uri("http://localhost:29116/ClientBin/HRApp-Web-OrganizationService.svc"));
-      
+      this.employeeDataSource.DomainContext.servicesHost =  environment.serviceHost;
+      this.employeeDataSource.DomainContext.endpoint = environment.serviceHost +  "ClientBin/HRApp-Web-OrganizationService.svc/json/";
+      this.employeeDataSource.DomainContext.client.endpoint = environment.serviceHost + "ClientBin/HRApp-Web-OrganizationService.svc/json/"
       this.employeeDataSource.addFilterDescriptor(new FilterDescriptor({
          property : "VacationHours",
          operator : "IsGreaterThanOrEqualTo",

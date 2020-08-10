@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serviceHost : "http://a378e4f9ad2d.ngrok.io/"
 };
 
 /*
